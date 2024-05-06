@@ -1,0 +1,42 @@
+h1{
+    color: red;
+    border: double;
+    border-color: chocolate;
+}
+h2{
+    color: darkgoldenrod;
+    border: double;
+    border-color: darksalmon;
+}
+h3{
+    color: green;
+    border:dotted;
+    border-color: chocolate;
+}
+p{
+    color: rgb(4, 27, 90);
+    border: dotted;
+    border-color: coral;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+body {
+background-image: url("Background.jpg");
+}
+.img-container {
+float: left;
+width: 32%;
+padding: 5px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.brush {
+    font-family: 'brush Script MT';
+}
